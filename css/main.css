@@ -72,11 +72,18 @@ body {
 }
 .banner-img {
   min-height: calc(100vh - 77px);
-  background: url('../img/bannerBcg.jpeg');
-  background-position: right;
-  /* background-size: cover; */
+  background: url('../img/bg.jpeg');
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
 }
 /* end of banner */
+.blockquote {
+  border-left: 0.5rem solid var(--mainBlue);
+}
+/* featured */
+.featured {
+  background: var(--mainGrey);
+}
