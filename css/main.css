@@ -1,0 +1,82 @@
+:root {
+  --mainDark: #242325;
+  --mainBlue: #03a9f4;
+  --mainWhite: #fff;
+  --mainGrey: #eeeeee;
+}
+body {
+  font-family: sans-serif;
+  background: var(--mainWhite);
+  color: var(--mainDark);
+}
+
+/* global */
+.blue__btn {
+  color: var(--mainBlue);
+  border: 0.1rem solid var(--mainBlue);
+  background: transparent;
+}
+.blue__btn:hover {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+
+/* navbar */
+
+.navbar {
+  background: var(--mainDark);
+}
+.phone-icon {
+  color: var(--mainBlue);
+  border: 0.1rem solid var(--mainBlue);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.navbar-brand {
+  font-weight: 900;
+  font-style: italic;
+  padding: 1rem;
+  transition: 0.5s all;
+}
+.navbar-brand:hover {
+  color: var(--mainDark);
+  background: var(--mainBlue);
+}
+/* end of navbar */
+
+/* banner */
+.banner-info {
+  min-height: calc(100vh - 77px);
+  background: var(--mainGrey);
+  position: relative;
+}
+.banner-info__footer {
+  background: var(--mainBlue);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 1rem;
+}
+.banner-img__footer {
+  background: var(--mainDark);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 104px;
+  display: flex;
+  align-items: center;
+}
+.banner-img {
+  min-height: calc(100vh - 77px);
+  background: url('../img/bannerBcg.jpeg');
+  background-position: right;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+/* end of banner */
