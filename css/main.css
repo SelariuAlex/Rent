@@ -87,3 +87,39 @@ body {
 .featured {
   background: var(--mainGrey);
 }
+/* services section */
+.services,
+.tour {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../img/bg.jpeg') center/cover fixed no-repeat;
+}
+.services-info-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--mainBlue);
+  color: var(--mainWhite) !important;
+  margin-bottom: 0;
+  text-decoration: none;
+  text-align: center;
+}
+.services-info-text:hover {
+  color: var(--mainDark) !important;
+  text-decoration: none;
+}
+.service-icon {
+  font-size: 2rem;
+  color: var(--mainBlue);
+  padding: 0.5rem;
+  border: 0.1rem solid var(--mainBlue);
+  margin-right: 1rem;
+  transition: all 1s ease-in-out;
+}
+.service-icon:hover {
+  background: var(--mainBlue);
+  color: var(--mainGrey);
+}
+.service-link:hover {
+  color: var(--mainWhite);
+}
