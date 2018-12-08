@@ -174,3 +174,22 @@ body {
 .gallery-img-container:hover .gallery-icon {
   opacity: 1;
 }
+/* virtual tour */
+.tour-icon {
+  color: var(--mainBlue);
+  margin-bottom: 1rem;
+  padding: 0 0.6rem;
+  background: var(--mainWhite);
+  border-radius: 10%;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.tour-icon:hover {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+}
+/* footer */
+.footer {
+  background: var(--mainDark);
+}
